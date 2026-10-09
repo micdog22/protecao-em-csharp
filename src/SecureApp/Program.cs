@@ -15,7 +15,7 @@ internal static class Program
 {
     private static int Main(string[] args)
     {
-        Console.Title = "SecureApp — Template C# Seguro";
+        Console.Title = "SecureApp: Template C# Seguro";
         var exePath = Environment.ProcessPath ?? System.Diagnostics.Process.GetCurrentProcess().MainModule?.FileName!;
         var cfgPath = Path.Combine(AppContext.BaseDirectory, "secure.json");
         var cfg = LoadConfig(cfgPath);

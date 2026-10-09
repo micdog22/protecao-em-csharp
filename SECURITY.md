@@ -3,7 +3,7 @@
 Este template prioriza **boas práticas legítimas** para proteção de software .NET:
 
 - **Build determinístico** e Analyzers habilitados;
-- **Assinatura de código (Authenticode)** e **validação da assinatura em runtime** (opcional — desativável via config);
+- **Assinatura de código (Authenticode)** e **validação da assinatura em runtime** (opcional, desativável via config);
 - Pipeline **GitHub Actions** para build e publicação de artefatos;
 - **Integração opcional** com ofuscadores **comerciais** (ex.: PreEmptive Dotfuscator CE) e **assinatura** com certificado no CI.
 

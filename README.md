@@ -1,4 +1,4 @@
-# Template C# Seguro (.NET 8) — por MicDog (Michael Douglas)
+# Template C# Seguro (.NET 8), por MicDog (Michael Douglas)
 
 Template profissional para projetos C# com **hardening legítimo**: build determinístico, validação de **assinatura de código (Authenticode)** em runtime, Analyzers, pipeline GitHub Actions e pontos de integração para **ofuscadores comerciais** (ex.: PreEmptive Dotfuscator CE do Visual Studio).
 
@@ -9,7 +9,7 @@ Template profissional para projetos C# com **hardening legítimo**: build determ
 
 ## Principais recursos
 
-- [.NET 8](https://dotnet.microsoft.com/) — Console app
+- [.NET 8](https://dotnet.microsoft.com/): Console app
 - Build **determinístico** e **analyzers** habilitados
 - **Validação de assinatura Authenticode** em runtime (opcional)
 - Pipeline **GitHub Actions** para build e artefatos
@@ -59,12 +59,12 @@ Template profissional para projetos C# com **hardening legítimo**: build determ
 
 > Observação: ofuscação pode quebrar reflexão; teste bem.
 
-## CI/CD — GitHub Actions
+## CI/CD: GitHub Actions
 
 O fluxo padrão compila o projeto em Release e publica artefatos. Você pode estender para assinar no CI
 usando segredos (`CERT_BASE64`, `CERT_PASSWORD`) e um passo de `signtool` em um runner Windows.
 
 ## Licença
 
-MIT © 2025 **MicDog (Michael Douglas)** — veja [LICENSE](LICENSE).
+MIT © 2025 **MicDog (Michael Douglas)**. Veja [LICENSE](LICENSE).
 
